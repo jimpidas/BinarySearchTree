@@ -33,7 +33,7 @@ namespace BinarySearchTreeUsingGenerics
                     this.RightTree.Insert(item);
             }
         }
-        private int leftCount =0, rightCount = 0;
+         int leftCount =0, rightCount = 0;
         public void Display()
         {
             if (this.LeftTree != null)
